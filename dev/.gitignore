@@ -6,3 +6,4 @@
 *.shx
 *.tif
 *.tif.aux.xml
+.DS_Store
