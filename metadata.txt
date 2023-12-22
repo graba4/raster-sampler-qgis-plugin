@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Raster Value Sampler
+qgisMinimumVersion=3.28
+description=This plugin samples raster values at point locations using three methods: exact location, nearest cell value, and mean neighbors value.
+version=0.1
+author=Amar Begovic
+email=amarbegovic86@gmail.com
+
+about=Samples raster cell values at point locations and stores them in the attribute table using three methods: exact location, nearest cell value, and mean neighbors value.
+
+tracker=https://github.com/graba4/raster-sampler-qgis-plugin/issues
+repository=https://github.com/graba4/raster-sampler-qgis-plugin
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/graba4/raster-sampler-qgis-plugin
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
